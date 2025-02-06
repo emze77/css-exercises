@@ -19,7 +19,11 @@ body {
 
 .left, .right {
   display: inline-flex;
+<<<<<<< HEAD
   gap: 16px;
+=======
+  gap: 8px;
+>>>>>>> New-Attempt-03-flex-head
   align-items: center;
 }
 
@@ -58,7 +62,13 @@ a {
 
 ul {
   list-style-type: none;
+<<<<<<< HEAD
   display: flex;
   gap: 10px;
   padding: 0;
+=======
+  display: inline-flex;
+  gap: 16px;
+  padding: 0px;
+>>>>>>> New-Attempt-03-flex-head
 }
