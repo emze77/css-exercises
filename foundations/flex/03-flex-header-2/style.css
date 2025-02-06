@@ -14,17 +14,13 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
+  padding: 8px;
+}
+
+.left, .right {
+  display: inline-flex;
+  gap: 16px;
   align-items: center;
-}
-
-.left {
-  display: inline-flex;
-  gap: 8px;
-}
-
-.right {
-  display: inline-flex;
-  gap: 8px
 }
 
 .profile-image {
@@ -34,7 +30,6 @@ body {
   width: 48px;
   height: 48px;
   flex: none;
-  margin-right: 8px
 }
 
 .logo {
@@ -51,8 +46,8 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 0px 16px;
-  margin: 10px 5px;
+  padding: 8px 24px;
+  /* padding: 0px 16px; */
 }
 
 a {
